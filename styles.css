@@ -22,6 +22,7 @@ h1 {
   padding: 20px 40px;
   border: 4px solid;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .btn:hover {
@@ -34,6 +35,7 @@ h1 {
   width: 50%;
   height: 100%;
   top: 0;
+  overflow: hidden;
 }
 
 .left {
@@ -50,4 +52,20 @@ h1 {
   background-color: lightblue;
   background-image: url("https://i5.walmartimages.com/seo/AT-T-Samsung-Galaxy-S24-Marble-Gray-128GB_c581f8ae-2b52-46be-9840-aec8d95d8c52.fcc528fec7dc4e72bef576c6e0a811e8.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF");
   background-size: cover;
+}
+
+.active-left .left {
+  width: 75%;
+}
+
+.active-right .right {
+  width: 25%;
+}
+
+.active-left .right {
+  width: 25%;
+}
+
+.active-right .left {
+  width: 25%;
 }
