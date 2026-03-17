@@ -11,3 +11,11 @@ leftEl.addEventListener("mouseover", () => {
 leftEl.addEventListener("mouseleave", () => {
   containerEl.classList.remove("active-left");
 });
+
+rightEl.addEventListener("mouseover", () => {
+  containerEl.classList.add("active-right");
+});
+
+rightEl.addEventListener("mouseleave", () => {
+  containerEl.classList.remove("active-right");
+});
